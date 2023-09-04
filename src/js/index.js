@@ -1,5 +1,8 @@
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
+import mobileNav from './modules/mobile-nav.js';
+
+mobileNav();
 
 const swiper = new Swiper('.swiper', {
 
@@ -29,5 +32,3 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-// import mobileNav from './modules/mobile-nav.js';
-// mobileNav();
